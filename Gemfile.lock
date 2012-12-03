@@ -1,11 +1,16 @@
+GIT
+  remote: git://github.com/MattHulse/kiwi_image_tools
+  revision: 1a1902f254eefb1df5bcaa0cd7c711c063f5d152
+  specs:
+    kiwi_image_tools (0.0.3)
+      rmagick
+
 GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.1.9)
     eventmachine (1.0.0)
     haml (3.1.7)
-    kiwi_image_tools (0.0.1)
-      rmagick
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -27,7 +32,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml
-  kiwi_image_tools
+  kiwi_image_tools!
   sinatra
   sinatra-flash
   thin
